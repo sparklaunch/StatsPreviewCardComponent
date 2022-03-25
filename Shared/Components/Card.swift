@@ -54,7 +54,7 @@ struct Card: View {
             }
         }
         .clipShape(RoundedRectangle(cornerRadius: 15))
-        .padding(.horizontal, 30)
+        .padding(30)
         .scaledToFit()
         .shadow(radius: 5)
     }
