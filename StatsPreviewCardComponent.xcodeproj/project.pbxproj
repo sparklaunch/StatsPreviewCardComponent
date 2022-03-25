@@ -13,6 +13,8 @@
 		9060DE4627ED40BB0043AD01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9060DE3427ED40BA0043AD01 /* ContentView.swift */; };
 		9060DE4727ED40BB0043AD01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9060DE3527ED40BB0043AD01 /* Assets.xcassets */; };
 		9060DE4827ED40BB0043AD01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9060DE3527ED40BB0043AD01 /* Assets.xcassets */; };
+		9060DE5327ED417C0043AD01 /* Inter.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9060DE5227ED417C0043AD01 /* Inter.ttf */; };
+		9060DE5527ED418B0043AD01 /* LexendDeca.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9060DE5427ED418B0043AD01 /* LexendDeca.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,9 @@
 		9060DE3A27ED40BB0043AD01 /* StatsPreviewCardComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StatsPreviewCardComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9060DE4027ED40BB0043AD01 /* StatsPreviewCardComponent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StatsPreviewCardComponent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9060DE4227ED40BB0043AD01 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		9060DE5227ED417C0043AD01 /* Inter.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Inter.ttf; sourceTree = "<group>"; };
+		9060DE5427ED418B0043AD01 /* LexendDeca.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LexendDeca.ttf; sourceTree = "<group>"; };
+		9060DE5627ED41A40043AD01 /* StatsPreviewCardComponent--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "StatsPreviewCardComponent--iOS--Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +50,7 @@
 		9060DE2D27ED40BA0043AD01 = {
 			isa = PBXGroup;
 			children = (
+				9060DE5627ED41A40043AD01 /* StatsPreviewCardComponent--iOS--Info.plist */,
 				9060DE3227ED40BA0043AD01 /* Shared */,
 				9060DE4127ED40BB0043AD01 /* macOS */,
 				9060DE3B27ED40BB0043AD01 /* Products */,
@@ -54,6 +60,7 @@
 		9060DE3227ED40BA0043AD01 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				9060DE5127ED41710043AD01 /* Fonts */,
 				9060DE3327ED40BA0043AD01 /* StatsPreviewCardComponentApp.swift */,
 				9060DE3427ED40BA0043AD01 /* ContentView.swift */,
 				9060DE3527ED40BB0043AD01 /* Assets.xcassets */,
@@ -76,6 +83,15 @@
 				9060DE4227ED40BB0043AD01 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		9060DE5127ED41710043AD01 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9060DE5427ED418B0043AD01 /* LexendDeca.ttf */,
+				9060DE5227ED417C0043AD01 /* Inter.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,7 +173,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9060DE5527ED418B0043AD01 /* LexendDeca.ttf in Resources */,
 				9060DE4727ED40BB0043AD01 /* Assets.xcassets in Resources */,
+				9060DE5327ED417C0043AD01 /* Inter.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +334,7 @@
 				DEVELOPMENT_TEAM = 862P2X6G9G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "StatsPreviewCardComponent--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -346,6 +365,7 @@
 				DEVELOPMENT_TEAM = 862P2X6G9G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "StatsPreviewCardComponent--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
