@@ -11,6 +11,14 @@ struct Card: View {
     var body: some View {
         ZStack {
             Color("CardColor")
+            VStack {
+                Image("Header")
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .colorMultiply(Color("AccentColor"))
+                Spacer()
+                    .frame(height: 30)
+            }
         }
         .clipShape(RoundedRectangle(cornerRadius: 15))
         .padding(.horizontal, 30)
