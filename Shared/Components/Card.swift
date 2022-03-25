@@ -43,6 +43,13 @@ struct Card: View {
                     .multilineTextAlignment(.center)
                     .lineSpacing(4)
                 Spacer()
+                    .frame(height: 40)
+                VStack(spacing: 15) {
+                    Item(figure: "10k+", unit: "COMPANIES")
+                    Item(figure: "314", unit: "TEMPLATES")
+                    Item(figure: "12M+", unit: "QUERIES")
+                }
+                Spacer()
                     .frame(height: 30)
             }
         }
