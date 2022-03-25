@@ -35,6 +35,15 @@ struct Card: View {
                 .multilineTextAlignment(.center)
                 Spacer()
                     .frame(height: 30)
+                Text("Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.")
+                    .font(.custom("Inter", size: 18))
+                    .padding(.horizontal, 30)
+                    .foregroundColor(Color("BodyColor"))
+                    .fixedSize(horizontal: false, vertical: true)
+                    .multilineTextAlignment(.center)
+                    .lineSpacing(4)
+                Spacer()
+                    .frame(height: 30)
             }
         }
         .clipShape(RoundedRectangle(cornerRadius: 15))
