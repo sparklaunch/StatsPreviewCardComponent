@@ -18,6 +18,23 @@ struct Card: View {
                     .colorMultiply(Color("AccentColor"))
                 Spacer()
                     .frame(height: 30)
+                Group {
+                    Text("Get ")
+                        .bold() +
+                    Text("insights")
+                        .bold()
+                        .foregroundColor(Color("AccentColor")) +
+                    Text(" that help your business grow.")
+                        .bold()
+                }
+                .padding(.horizontal, 50)
+                .font(.custom("Inter", size: 27))
+                .foregroundColor(.white)
+                .lineSpacing(3)
+                .fixedSize(horizontal: false, vertical: true)
+                .multilineTextAlignment(.center)
+                Spacer()
+                    .frame(height: 30)
             }
         }
         .clipShape(RoundedRectangle(cornerRadius: 15))
